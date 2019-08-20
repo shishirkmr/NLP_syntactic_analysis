@@ -2,7 +2,7 @@
 HMMs and Viterbi algorithm for POS tagging
 
 
-# MMs and Viterbi algorithm for POS tagging
+# HMMs and Viterbi algorithm for POS tagging
  
 
 You have learnt to build your own HMM-based POS tagger and implement the Viterbi algorithm using the Penn Treebank training corpus. The vanilla Viterbi algorithm we had written had resulted in ~87% accuracy. The approx. 13% loss of accuracy was majorly due to the fact that when the algorithm encountered an unknown word (i.e. not present in the training set, such as 'Twitter'), it assigned an incorrect tag arbitrarily. This is because, for unknown words, the emission probabilities for all candidate tags are 0, so the algorithm arbitrarily chooses (the first) tag.
